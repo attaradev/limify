@@ -1,13 +1,13 @@
 {
-  "name": "shopify-app-boilerplate",
+  "name": "limify",
   "version": "3.0",
-  "description": "Shopify app boilerplate with typescript and Shopify-cli 3x.",
+  "description": "Shopify app for limiting number of items customers can add to their cart. Built with typescript and Shopify-cli 3x.",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon --watch './server/**/*' -e ts,js --exec npx ts-node ./server",
     "build": "NEXT_TELEMETRY_DISABLED=1 ./node_modules/.bin/next build && yarn tsc -b ./server",
     "start": "cross-env NODE_ENV=production node ./dist"
   },
-  "author": "Lanre Popson",
+  "author": "Mike Attara",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "7.18.9",

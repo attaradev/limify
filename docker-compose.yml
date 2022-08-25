@@ -1,8 +1,8 @@
 version: "3.4"
 
 services:
-  shopifyappnode:
-    image: shopifyappnode
+  limify:
+    image: limify
     build:
       context: .
       dockerfile: ./Dockerfile
