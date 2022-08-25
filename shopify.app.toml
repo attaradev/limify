@@ -1,0 +1,2 @@
+name = "Shopify App Boilerplate Migrated to 3.x"
+scopes = "write_orders,write_themes,write_script_tags,write_discounts,write_price_rules,write_checkouts,write_products"

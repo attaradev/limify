@@ -1,0 +1,29 @@
+{
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true,
+    "ecmaVersion": 2020
+  },
+
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": [
+    // "standard",
+    // "plugin:@typescript-eslint/eslint-recommended",
+    // "plugin:@typescript-eslint/recommended",
+    "plugin:jest-dom/recommended",
+    "plugin:react/recommended"
+    // "plugin:@next/next/recommended",
+    // "plugin:shopify/react",
+    // "plugin:shopify/polaris",
+    // "plugin:shopify/webpack"
+  ],
+  // "parser": "@typescript-eslint/parser",
+  "plugins": ["react", "jest-dom" /* ,"@typescript-eslint"*/],
+  "rules": {
+    "react/prop-types": 0
+  }
+}

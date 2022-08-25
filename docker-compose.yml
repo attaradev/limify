@@ -1,0 +1,15 @@
+version: "3.4"
+
+services:
+  shopifyappnode:
+    image: shopifyappnode
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 8000:8000
+    volumes:
+      - ./server:/srv/app
+      - /srv/app/node_modules

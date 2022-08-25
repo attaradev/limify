@@ -1,0 +1,7 @@
+node_modules
+build
+dist
+coverage
+server/scripts/app_script.min.js
+
+

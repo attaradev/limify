@@ -1,0 +1,30 @@
+{
+  "name": "shopify-app-boilerplate-v3x",
+  "description": "Shopify app boilerplate with typescript and Shopify-cli 3x.",
+  "private": true,
+  "license": "MIT",
+  "author": "Lanre Popson",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x-buidl/shopify-app-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0x-buidl/shopify-app-boilerplate.git"
+  },
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "scaffold": "shopify app scaffold",
+    "deploy": "shopify app deploy",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@shopify/app": "^3",
+    "@shopify/cli": "^3"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
